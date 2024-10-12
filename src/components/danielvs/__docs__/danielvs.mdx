@@ -1,0 +1,58 @@
+import { Canvas, Meta } from "@storybook/blocks";
+import Example from "./example.tsx";
+import * as DanielVS from "./danielvs.stories.tsx";
+
+<Meta of={DanielVS} title="DanielVS" />
+
+# DanielVS
+
+Componente de rating DanielVS con diferentes especializaciones.
+
+#### Example
+
+<Canvas of={DanielVS.Primary} />
+
+## Usage
+
+ ```ts
+ import {DanielVS} from "milibreria";
+
+ function Example(){
+  return (
+      <DanielVS
+           defaultValue: 2,
+           max: 6,
+           size: "large",
+           precision: 1,
+           color: "orange",
+           readOnly: false,
+           disabled: false,
+      />
+  );
+ };
+
+ export default Example;
+ ```
+
+#### Example
+
+<Canvas of={DanielVS.Secondary} />
+
+ ## Usage
+
+ ```ts
+ import {DanielVS} from 'milibreria';
+
+ function Example(){
+  return (
+       <MyButton
+            defaultValue: 4,
+            max: 10,
+            size: "small",
+            precision: 0.5,
+            color: "red",
+            readOnly: false,
+            disabled: false,
+        />
+     );
+  };
