@@ -1,3 +1,4 @@
+//DANIEL VIERA SANTANA
 import Rating from '@mui/material/Rating';
 
 // Declaro la interface del componente.
