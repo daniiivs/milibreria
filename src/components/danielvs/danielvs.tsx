@@ -17,7 +17,7 @@ function DanielVS(props: DanielVSProps) {
     // Paso el valor de las props a un objeto
     const {defaultValue, color, precision, max, readOnly, disabled, size} = props
     return (
-        // Uso el IconButton de la librería MUI y lo personalizo con las props que pasan a mi componente
+        // Uso el Rating de la librería MUI y lo personalizo con las props que pasan a mi componente
         <Rating
             defaultValue={defaultValue}
             precision={precision}
